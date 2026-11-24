@@ -1,0 +1,37 @@
+{
+  "workshoptitle": "Explore a Workflow Agent in AI Agent Studio",
+  "variables": [
+    "shared/variables.json"
+  ],
+  "help": "livelabs-help-oci_us@oracle.com",
+  "tutorials": [
+    {
+      "title": "Introduction: Extend a Workflow Agent in AI Agent Studio",
+      "filename": "introduction/introduction.md"
+    },
+    {
+      "title": "Lab 1: Examine the Purchase Requisition Chat Assistant workflow and components",
+      "filename": "lab-1/workflow_explore.md"
+    },
+    {
+      "title": "Lab 2: Add a REST Node to the Workflow",
+      "filename": "lab-2/workflow_update_team.md"
+    },
+    {
+      "title": "Lab 3: Update the LLM Step",
+      "filename": "lab-3/workflow_update_llm.md"
+    },
+    {
+      "title": "Lab 4: Run the workflow",
+      "filename": "lab-4/workflow_run_workflow.md"
+    },
+    {
+      "title": "Need Help?",
+      "description": "Solutions to Common Problems and Directions for Receiving Live Help",
+      "filename": "help/need-help-freetier.md"
+    }
+  ],
+  "include": {
+    "initial_hints": "shared/login_usage_notes.md"
+  }
+}

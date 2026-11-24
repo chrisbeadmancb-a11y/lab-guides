@@ -1,0 +1,14 @@
+---
+layout: page
+title: Lab guides
+---
+<ul class="guide-list" aria-label="Available lab guides">
+  {% assign guides = site.labs | sort: 'order' %}
+  {% for guide in guides %}
+  <li>
+    <h2><a href=".{{ guide.url | escape }}">{{ guide.title | escape }}</a></h2>
+    {% if guide.duration %}<p class="duration">{{ guide.duration | escape }}</p>{% endif %}
+    {% if guide.summary %}<p>{{ guide.summary | escape }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>

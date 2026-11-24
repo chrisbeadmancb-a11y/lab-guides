@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.collection == 'labs' %}{% assign root_path = '../' %}{% else %}{% assign root_path = './' %}{% endif %}
+  <title>{{ page.title | escape }}{% if page.collection == 'labs' %} | {{ site.title | escape }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ root_path }}assets/guides.css">
+  <script src="{{ root_path }}assets/copy.js" defer></script>
+</head>
+<body>
+  <main id="content">
+    {% if page.collection == 'labs' %}
+    <nav aria-label="Guide navigation"><a href="{{ root_path }}"><span aria-hidden="true">← </span>All lab guides</a></nav>
+    {% endif %}
+    <header>
+      <h1>{{ page.title | escape }}</h1>
+      {% if page.duration %}<p class="duration">{{ page.duration | escape }}</p>{% endif %}
+      {% if page.summary %}<p class="summary">{{ page.summary | escape }}</p>{% endif %}
+    </header>
+    <div class="guide-content">{{ content }}</div>
+  </main>
+</body>
+</html>

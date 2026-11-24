@@ -1,0 +1,14 @@
+title: Lab guides
+markdown: kramdown
+kramdown:
+  input: GFM
+collections:
+  labs:
+    output: true
+    permalink: /labs/:name.html
+defaults:
+  - scope:
+      path: ""
+      type: labs
+    values:
+      layout: page
