@@ -1,5 +1,6 @@
 ---
 title: Set up your lab notes
+published: false
 order: 10
 duration: 3 minutes
 summary: Make a plain-text log you can reuse to record what you tried and what happened in each lab.
