@@ -1,0 +1,21 @@
+{
+  "workshoptitle": "Oracle Fusion HCM Onboarding Workshop",
+  "tutorials": [
+    {
+      "title": "Overview",
+      "filename": "overview.md"
+    },
+    {
+      "title": "Lab 1 · Employment Lifecycle Policy Advisor",
+      "filename": "policy-advisor.md"
+    },
+    {
+      "title": "Lab 2 · Journeys AI Assist",
+      "filename": "journeys-ai-assist.md"
+    },
+    {
+      "title": "Shared onboarding policy",
+      "filename": "onboarding-policy.md"
+    }
+  ]
+}
