@@ -5,6 +5,7 @@ title: Lab Guides
 <ul class="guide-list" aria-label="Available lab guides">
   {% assign guides = site.labs | sort: 'order' %}
   {% for guide in guides %}
+  {% if guide.title == "Set up your lab notes" %}{% continue %}{% endif %}
   <li>
     <h2><a href=".{{ guide.url | escape }}">{{ guide.title | escape }}</a></h2>
     {% if guide.duration %}<p class="duration">{{ guide.duration | escape }}</p>{% endif %}
