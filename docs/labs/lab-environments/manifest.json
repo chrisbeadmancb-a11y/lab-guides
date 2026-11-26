@@ -1,0 +1,10 @@
+{
+  "workshoptitle": "Lab Guides",
+  "tutorials": [
+    {
+      "title": "Lab Environments",
+      "filename": "lab-environments.md",
+      "task_type": "Screenshots"
+    }
+  ]
+}
