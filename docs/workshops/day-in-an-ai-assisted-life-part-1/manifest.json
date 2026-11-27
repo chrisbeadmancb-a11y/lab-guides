@@ -1,0 +1,17 @@
+{
+  "workshoptitle": "Day in an AI Assisted Life – Part 1",
+  "tutorials": [
+    {
+      "title": "Overview",
+      "filename": "overview.md"
+    },
+    {
+      "title": "Exercise 1-1 · Sales follow-ups",
+      "filename": "sales-follow-ups.md"
+    },
+    {
+      "title": "Exercise 1-2 · Generate feedback",
+      "filename": "generate-feedback.md"
+    }
+  ]
+}
