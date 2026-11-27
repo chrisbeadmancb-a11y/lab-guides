@@ -1,0 +1,21 @@
+{
+  "workshoptitle": "Day in an AI Assisted Life – Part 2",
+  "tutorials": [
+    {
+      "title": "Overview",
+      "filename": "overview.md"
+    },
+    {
+      "title": "Exercise 1-3 · Requisition a new laptop",
+      "filename": "requisition-new-laptop.md"
+    },
+    {
+      "title": "Exercise 1-4 · Risk management and separation of duties",
+      "filename": "separation-of-duties.md"
+    },
+    {
+      "title": "Exercise 1-5 · Anomaly insights",
+      "filename": "anomaly-insights.md"
+    }
+  ]
+}
